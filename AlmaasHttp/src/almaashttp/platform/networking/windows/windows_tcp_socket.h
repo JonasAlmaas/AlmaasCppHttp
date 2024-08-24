@@ -47,6 +47,7 @@ namespace Almaas::Networking {
 		uint32_t m_ReceiveBytes = 0;
 
 	};
+
 }
 
 #endif // ALMAAS_PLATFORM_WINDOWS

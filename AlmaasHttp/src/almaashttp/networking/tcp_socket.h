@@ -48,7 +48,6 @@ namespace Almaas::Networking {
 
 		static void Init();
 		static void Shutdown();
-
 	};
 
 }
