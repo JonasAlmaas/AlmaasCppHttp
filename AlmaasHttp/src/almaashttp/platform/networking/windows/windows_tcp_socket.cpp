@@ -15,7 +15,7 @@
 
 namespace Almaas::Networking {
 
-	TCP::TCP()
+	void TCP::Init()
 	{
 		WSADATA wsData;
 		WORD ver = MAKEWORD(2, 2);
@@ -28,7 +28,7 @@ namespace Almaas::Networking {
 		}
 	}
 
-	TCP::~TCP()
+	void TCP::Shutdown()
 	{
 		WSACleanup();
 	}

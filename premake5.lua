@@ -28,5 +28,6 @@ group "Core"
 group ""
 
 group "Examples"
-	include "ServerExample"
+	include "Examples/ServerExample"
+	include "Examples/ClientExample"
 group ""

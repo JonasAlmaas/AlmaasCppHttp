@@ -1,4 +1,4 @@
-project "ServerExample"
+project "ClientExample"
 	kind "ConsoleApp"
 	language "C++"
 	cppdialect "C++20"
@@ -16,7 +16,7 @@ project "ServerExample"
 	includedirs
 	{
 		"src",
-		"../AlmaasHttp/src",
+		"../../AlmaasHttp/src",
 	}
 
 	links

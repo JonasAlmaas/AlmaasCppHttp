@@ -44,8 +44,11 @@ namespace Almaas::Networking {
 	class TCP
 	{
 	public:
-		TCP();
-		~TCP();
+		TCP() = delete;
+
+		static void Init();
+		static void Shutdown();
+
 	};
 
 }
